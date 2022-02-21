@@ -1,0 +1,15 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Byte-compiled / optimized / DLL files\r\n__pycache__/\r\n*.py[cod]\r\n*$py.class\r\n\r\n# C extensions\r\n*.so\r\n\r\n# Distribution / packaging\r\n.Python\r\nbuild/\r\ndevelop-eggs/\r\ndist/\r\ndownloads/\r\neggs/\r\n.eggs/\r\nlib/\r\nlib64/\r\nparts/\r\nsdist/\r\nvar/\r\nwheels/\r\npip-wheel-metadata/\r\nshare/python-wheels/\r\n*.egg-info/\r\n.installed.cfg\r\n*.egg\r\nMANIFEST\r\n\r\n# PyInstaller\r\n#  Usually these files are written by a python script from a template\r\n#  before PyInstaller builds the exe, so as to inject date/other infos into it.\r\n*.manifest\r\n*.spec\r\n\r\n# Installer logs\r\npip-log.txt\r\npip-delete-this-directory.txt\r\n\r\n# Unit test / coverage reports\r\nhtmlcov/\r\n.tox/\r\n.nox/\r\n.coverage\r\n.coverage.*\r\n.cache\r\nnosetests.xml\r\ncoverage.xml\r\n*.cover\r\n*.py,cover\r\n.hypothesis/\r\n.pytest_cache/\r\n\r\n# Translations\r\n*.mo\r\n*.pot\r\n\r\n# Django stuff:\r\n*.log\r\nlocal_settings.py\r\ndb.sqlite3\r\ndb.sqlite3-journal\r\n\r\n# Flask stuff:\r\ninstance/\r\n.webassets-cache\r\n\r\n# Scrapy stuff:\r\n.scrapy\r\n\r\n# Sphinx documentation\r\ndocs/_build/\r\n\r\n# PyBuilder\r\ntarget/\r\n\r\n# Jupyter Notebook\r\n.ipynb_checkpoints\r\n\r\n# IPython\r\nprofile_default/\r\nipython_config.py\r\n\r\n# pyenv\r\n.python-version\r\n\r\n# pipenv\r\n#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.\r\n#   However, in case of collaboration, if having platform-specific dependencies or dependencies\r\n#   having no cross-platform support, pipenv may install dependencies that don't work, or not\r\n#   install all needed dependencies.\r\n#Pipfile.lock\r\n\r\n# PEP 582; used by e.g. github.com/David-OConnor/pyflow\r\n__pypackages__/\r\n\r\n# Celery stuff\r\ncelerybeat-schedule\r\ncelerybeat.pid\r\n\r\n# SageMath parsed files\r\n*.sage.py\r\n\r\n# Environments\r\n.env\r\n.venv\r\nenv/\r\nvenv/\r\nENV/\r\nenv.bak/\r\nvenv.bak/\r\n\r\n# Spyder project settings\r\n.spyderproject\r\n.spyproject\r\n\r\n# Rope project settings\r\n.ropeproject\r\n\r\n# mkdocs documentation\r\n/site\r\n\r\n# mypy\r\n.mypy_cache/\r\n.dmypy.json\r\ndmypy.json\r\n\r\n# Pyre type checker\r\n.pyre/\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision ecd8e37e620dbd981e76805c9837621665024645)
++++ b/.gitignore	(date 1645432648801)
+@@ -127,3 +127,4 @@
+ 
+ # Pyre type checker
+ .pyre/
++/vis/
